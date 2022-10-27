@@ -27,16 +27,21 @@ body{
 }
 
 .ingredients{
-    width: 40%;
+    font-size: 18px;
+    width: 20%;
     height: 300px;
     float: left;
     color: black;
     text-align: center;
+    margin-left:250px;
+    margin-right:300px;
 }
 
 .steps{
-    width: 55%;
+    font-size: 18px;
+    width: 40%;
     height: 300px;
     float: right;
     color: black;
+    margin-right: 150px;
 }

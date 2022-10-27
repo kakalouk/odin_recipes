@@ -1,0 +1,51 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(229, 200, 243);
+}
+
+#title,#caption{
+    text-align: center;
+    font-stretch: extra-expanded;
+    font-size: 60px;
+    color: blue;
+}
+
+#caption{
+    font-size: 30px;
+    color: black;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.par{
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+.ingredients{
+    font-size: 18px;
+    width: 20%;
+    height: 800px;
+    float: left;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin-left:250px;
+    margin-right: 50px;
+}
+
+.steps{
+    font-size: 18px;
+    width: 50%;
+    height: 800px;
+    float: right;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
