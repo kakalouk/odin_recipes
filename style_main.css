@@ -1,0 +1,22 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title{
+    text-align: center;
+    font-stretch: extra-expanded;
+    font-size: 60px;
+    color: blue;
+}
+
+.photo,.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    font-size: 30px;
+    color: darkblue;
+}
+   

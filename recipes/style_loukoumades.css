@@ -1,0 +1,42 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(250, 204, 118);
+}
+
+#title,#caption{
+    text-align: center;
+    font-stretch: extra-expanded;
+    font-size: 60px;
+    color: blue;
+}
+
+#caption{
+    font-size: 30px;
+    color: black;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.par{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.ingredients{
+    width: 40%;
+    height: 350px;
+    float: left;
+    color: black;
+    text-align: center;
+}
+
+.steps{
+    width: 57%;
+    height: 350px;
+    float: right;
+    color: black;
+}
