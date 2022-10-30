@@ -26,22 +26,28 @@ body{
     text-align: center;
 }
 
-.ingredients{
-    font-size: 18px;
-    width: 20%;
-    height: 350px;
-    float: left;
-    color: black;
-    text-align: center;
-    margin-left:250px;
-    margin-right:200px;
-}
+.borders{
+    /* border: 10px solid red;*/
+     max-width: 1200px;
+     margin: auto;
+     display:flex;
+ }
 
-.steps{
-    font-size: 18px;
-    width: 50%;
-    height: 350px;
-    float: right;
-    color: black;
-    margin-right: 100px;
-}
+ .borders .ingredients{
+     /*border: 10px solid;*/
+     font-size: 18px;
+     width: 30%;
+     height: 350px;
+     color: black;
+     text-align: center;
+     margin-left: 100px;
+ }
+ 
+ .borders .steps{
+     /*border: 10px solid;*/
+     font-size: 18px;
+     width: 40%;
+     height: 450px;
+     color: black;
+     margin-left: 200px;
+ }

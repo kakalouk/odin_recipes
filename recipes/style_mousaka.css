@@ -28,24 +28,28 @@ body{
     text-align: center;
 }
 
-.ingredients{
+.borders{
+     /*border: 10px solid red;*/
+     max-width: 1200px;
+     margin: auto;
+     display:flex;
+ }
+
+ .borders .ingredients{
+    /*border: 10px solid;*/
     font-size: 18px;
-    width: 20%;
+    width: 30%;
     height: 800px;
-    float: left;
     color: black;
-    align-items: center;
-    justify-content: center;
-    margin-left:250px;
-    margin-right: 50px;
+    text-align: center;
+    margin-left: 100px;
 }
 
-.steps{
+.borders .steps{
+    /*border: 10px solid;*/
     font-size: 18px;
     width: 50%;
-    height: 800px;
-    float: right;
+    height: 1050px;
     color: black;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
 }
